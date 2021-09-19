@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Klee+One:wght@600&family=Rampart+One&display=swap");
+body {
+  font-family: "Klee One";
+  background-color: rgb(255, 255, 167);
+  margin: 40px;
+}
+h1 {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+.recipes {
+  border-radius: 60%;
+  display: block;
+  justify-content: center;
+}
+.recipes img {
+  justify-content: center;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  text-align: center;
+  width: 25%;
+}
+.light {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+  text-align: center;
+  width: 25%;
+}
+header {
+  color: teal;
+  font-family: "Rampart One";
+}
+#mandamelareceta {
+  border-radius: 50%;
+  width: 80px;
+}
+#info {
+  background-color: lavender;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  writing-mode: horizontal-tb;
+}
